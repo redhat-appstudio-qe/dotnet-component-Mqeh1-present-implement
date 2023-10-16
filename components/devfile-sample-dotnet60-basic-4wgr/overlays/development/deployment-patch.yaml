@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-dotnet60-basic-4wgr
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/rsoaresd_org/spi-demos-lsxq-tenant/dotnet-component/devfile-sample-dotnet60-basic-4wgr@sha256:52efbe5b0fb0fc789f4e5749e6289a459e0c9832adc3bd41a6432849d2e92ad9
+        name: main
+        resources: {}
+status: {}
