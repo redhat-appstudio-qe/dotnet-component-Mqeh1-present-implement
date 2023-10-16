@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-dotnet60-basic-4wgr
     spec:
       containers:
-      - image: dotnet-image:latest
+      - image: quay.io/rsoaresd_org/spi-demos-lsxq-tenant/dotnet-component/devfile-sample-dotnet60-basic-4wgr@sha256:52efbe5b0fb0fc789f4e5749e6289a459e0c9832adc3bd41a6432849d2e92ad9
         imagePullPolicy: Always
         name: main
         ports:
